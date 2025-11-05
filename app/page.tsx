@@ -6,6 +6,12 @@ const dummyTasks: Task[] = [
   { taskName: "Page 2", checked: false },
   { taskName: "Page 3", checked: false },
   { taskName: "Page 4", checked: false },
+  { taskName: "Page 5", checked: false },
+  { taskName: "Page 6", checked: false },
+  { taskName: "Page 7", checked: false },
+  { taskName: "Page 8", checked: false },
+  { taskName: "Page 8", checked: false },
+  { taskName: "Page 10", checked: false },
 ]
 
 export default function Home() {

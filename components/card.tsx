@@ -48,7 +48,7 @@ const Card = ({ title, buttonTitle, tasks }: CardProps) => {
 
             <Separator className='w-full bg-[#CDCDCD] h-px my-2.5' />
 
-            <div className='flex-1 flex flex-col gap-2.5 overflow-auto justify-center'>
+            <div className='flex-1 flex flex-col gap-2.5 overflow-auto scrollbar-hide'>
                 {tasks.map((task, i) => (
                     <TaskItem
                         key={i}
