@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import "./globals.css";
 
-const montserrat = Montserrat({ variable: "--font-montserrat" });
+const montserrat = Montserrat({ variable: "--font-montserrat", subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "ELLTY",
@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="h-full">
       <body
-        className={`${montserrat.variable} antialiased w-full h-full`}
+        className={`${montserrat.className} antialiased w-full h-full`}
       >
         {children}
       </body>
